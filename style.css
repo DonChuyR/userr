@@ -1,0 +1,52 @@
+#body_targ{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    box-shadow:   3px 6px 160px rgb(212, 207, 207);
+    border:0;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.banner{
+    display: flex;
+    background-color: rgb(209, 105, 36);
+    height: 20%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.imgperfil{
+    border: 3px solid white;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    position: relative;
+    top: -10%;
+    right: -5%;
+}
+h1{
+    margin-left:7%;
+    margin-top: -7%;
+    margin-bottom: -4%;
+}
+.text{
+    margin: 7%;
+}
+.edit{
+    border: 0;
+    width: 15%;
+    height: 7%;
+    margin-left: 7%;
+    text-align: center;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
